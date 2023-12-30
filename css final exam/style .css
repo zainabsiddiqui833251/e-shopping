@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-image: url(./img/bg.jpeg);
+  background-repeat: no-repeat;
+  background-size:cover; */
+  background-color: pink;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  background-color: purple;
+  color: #fff;
+  width: 100%;
+  margin: 0%;
+  
+  /* padding: 0%; */
+}
+
+.logo img {
+  max-width: 100px;
+  /* Adjust the max-width as needed */
+}
+
+.search-bar {
+  display: flex;
+}
+
+.search-bar input {
+  padding: 8px;
+  width: 50%;
+}
+
+.search-bar button {
+  padding: 8px 15px;
+  background-color: pink;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.user-actions {
+  display: flex;
+}
+
+.login a,
+.shopping-cart a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  padding-right: 15px;
+}
+
+.shopping-cart img {
+  max-width: 30px;
+
+  /* Adjust the max-width as needed */
+}
+
+/* banner */
+.nav2 h3 {
+  font-size: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+.nav2 {
+  width: 100%;
+  height: 30px;
+  background-color: antiquewhite;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 50px;
+  padding: 5px;
+  margin: 0%;
+  padding: 0%;
+}
+
+.nav2 span {
+  color: red;
+  text-transform: capitalize;
+  text-decoration: dashed;
+  font-weight: bold;
+}
+
+/* nav3 */
+.nav3 {
+  width: 100%;
+  /* background-color: blue; */
+}
+
+.nav3 a {
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  color: antiquewhite;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+  width: 7%;
+  height: 90px;
+  border: 2px solid;
+  /* margin-left: 3%; */
+  border-radius: 50%;
+  text-align: center;
+  background-color: purple;
+  margin-top: 2%;
+  overflow: hidden;
+}
+
+.nav3 a:hover {
+  background-color: antiquewhite;
+  color: purple;
+  text-decoration: underline;
+
+}
+
+.nav3 span {
+  font-size: 30px;
+}
+
+/* topselling */
+.topselling img {
+  width: 85px;
+  height: 50px;
+  border: 2px solid;
+  text-align: start;
+}
+
+.topselling table {
+  border: 2px solid;
+  width: 90%;
+  margin-left: 2%;
+  /* margin-right: 5%; */
+  background-color: antiquewhite;
+}
+
+.topselling table td {
+  width: 30%;
+  border: 1px solid;
+  font-size: 25px;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-style: italic;
+  height: 80px;
+  text-align: left;
+  padding: 15px;
+  vertical-align: middle;
+}
+
+.topselling td:hover {
+  background-color: purple;
+  color: white;
+}
+
+/* favourites */
+.favourites {
+  background-color: antiquewhite;
+  /* margin-left: 3%; */
+  margin-top: 5%;
+  /* margin-right: 3%; */
+}
+
+.favourites img {
+  width: 150px;
+  height: 150px;
+}
+
+.child {
+  width: 150px;
+  height: 190px;
+  display: inline-block;
+  border: 1px solid;
+  overflow: hidden;
+  margin: 1%;
+  text-align: center;
+  background-color: antiquewhite;
+  border-radius: 5%;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.child:hover {
+  color: purple;
+  background-color: pink;
+}
+
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: underline;
+  font-size: 50px;
+  margin-top: 3%;
+  color: black;
+}
+
+.child img {
+  width: 150px;
+  height: 150px;
+}
+
+.clothes,
+.household,
+.cosmetics,
+.stationery,
+.toys {
+  margin-left: 1%;
+  /* margin-right: 3%; */
+  background-color: purple;
+  border-radius: 32px;
+  /* height: 300px; */
+  width: 96%;
+
+}
+
+.footwear,
+.jwellery,
+.skincare,
+.mobile {
+  margin-left: 1%;
+  /* margin-right: 3%; */
+  background-color: antiquewhite;
+  border-radius: 32px;
+  /* height: 300px; */
+  width: 96%;
+}
+
+h2 {
+  padding: 15px;
+  text-transform: capitalize;
+  text-align: right;
+  color: rgb(211, 102, 120);
+}
+
+h2:hover {
+  text-decoration: underline;
+  color: rgb(214, 20, 101);
+}
+
+.paythrough li {
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  text-transform: capitalize;
+  border: 1px solid;
+  width: 20%;
+  display: inline-block;
+  /* height: 50px; */
+  margin-left: 3%;
+  background-color: purple;
+  color: antiquewhite;
+}
+
+.footer h3 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 2em;
+}
+
+.footer li {
+  display: inline;
+}
+
+.footer li a {
+  font-size: 50px;
+  padding: 15px;
+  color: antiquewhite;
+}
+
+.footer {
+  background-color: purple;
+  width: 100%;
+  bottom: 0;
+  height: 380px;
+}
+
+.code {
+  width: 18%;
+}
+
+.order table {
+  width: 90%;
+  border: 2px solid;
+}
+
+.order td {
+  height: 50px;
+  border: 2px solid;
+  font-size: 20px;
+  text-align: left;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+textarea {
+  width: 80%;
+  height: 30px;
+}
+
+.order input {
+  margin: 15px;
+  height: 30px;
+}
+
+.p1 {
+  width: 100%;
+  height: 550px;
+  margin-left: 3%;
+  /* margin-right: 3%; */
+}
+
+.p1 img {
+  width: 100%;
+  height: 550px;
+
+}
+
+.child-1 {
+  display: inline-block;
+  height: 550px;
+  width: 47%;
+  overflow: hidden;
+}
+
+.p1 h3 {
+  text-align: center;
+  margin-top: 15%;
+  font-size: 50px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-shadow: 3px 3px 3px grey;
+}
+
+.p1 h4 {
+  text-align: center;
+  line-height: 2em;
+  font-size: 40px;
+  color: red;
+  text-transform: capitalize;
+  text-shadow: 3px 3px 3px grey;
+}
+
+.p1 h5 {
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 3px grey;
+}
+
+.footer .top {
+  text-align: left;
+  padding: 50px;
+  font-size: 30px;
+  color: white;
+  text-transform: capitalize;
+}
